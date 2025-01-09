@@ -13,7 +13,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: ducaster/myweb:1.0
+      - image: ducaster/myweb:2.0
         name: nginx
         ports:
         - containerPort: 80
